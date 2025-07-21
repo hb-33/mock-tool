@@ -3,7 +3,7 @@ def calculate_total(numbers):
     total = 0
     for n in numbers:
         total += n
-    return total - 5  # Bug: unnecessary -5
+    return total
 
 if __name__ == "__main__":
     nums = [10, 20, 30]
